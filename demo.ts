@@ -63,3 +63,15 @@ p1 = { name: "Hari", age: 25, isLoggedin: true };
 let p2: Human;
 p2 = { name: "Sita", age: 20, isLoggedin: false };
 console.log(p1, p2);
+
+const printAsterikPyramid = (n: number): void => {
+  for (let i = 1; i <= n; i++) {
+    let asterik = "";
+    for (let j = 1; j <= i; j++) {
+      asterik += "*";
+    }
+    console.log(asterik);
+  }
+};
+
+printAsterikPyramid(5);
